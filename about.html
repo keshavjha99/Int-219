@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Food is the prime mover for anyone across the globe. Of course, there are many people who yearn for food and to taste a variety of cuisines that are available. The furtherance in the technology has paved a way for the creation of many innovations and it is no less to mention that food delivery app development is one among them.
+
+    In this extravagantly ornate system, it has become hard for every person to disburse time on everything. Besides, cooking food after a busy day entails a lot of time and that is what that has gained huge rage about these food delivering applications, where food will be delivered directly at your doorsteps.
+    
+    For all these ingenious thoughts, there are those unusual people who have a perfect understanding of all the trends and so are these people keshav jha and Mike Ross. They are the master brains behind this great food delivery website 'Yummy'. Yummy has been and is the most widely used ordering website that attracted many customers with its innovatory strategies..</p>
+
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <alt="keshav" style="width:100%">
+      <div class="container">
+        <h2>keshav jha</h2>
+        <p class="title">CEO & Founder</p>
+        <p> think the one word that describes me the best is dynamic. In my 5 years of work experience, I have been caught off-guard in many situations where the strategies and goals changed in a blink.
+
+          I have delivered well in environments where nothing was certain and plans developed with the task’s development.
+          
+          I’m certain that I can adapt to any changes in the organization or strategy and ace it.</p>
+        <p>keshav@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>SI’m a versatile person with the ability to deliver results in a constantly changing scenario.
+
+          I can easily adapt to new plans, strategize and execute the tasks seamlessly.
+          
+          In my experience as a project manager, I have led teams in agile circumstances and met the organizational goals for the last 2 years.
+        </p>
+        <p>mike@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>I’m very innovative and love finding new things that can intrigue me.
+
+          Professionally speaking, I like to experiment with new ways to do things and achieve the desired results within the set time frame.
+          
+          In my previous role, I worked on the development of ABC application and it was a huge success in the market, standing out with its distinctive features.
+          
+          All the app developments were unique and had very good user response, credit to the innovative streak I shared with my colleagues working on the project.</p>
+        <p>john@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
